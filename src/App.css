@@ -1,0 +1,48 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-img{
+  height: 250px;
+  width: 100vw;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap:2rem; 
+  padding: 60px;
+}
+
+.card{
+  width:400px;
+  height:270px;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  gap:2rem;
+  padding:25px;
+}
+
+.pageTitle{
+  font-size: 50px;
+  font-weight: bolder;
+  color: beige;
+}
+
+.pagePara{
+  font-size: 20px;
+  font-style: italic;
+  color: beige;
+}
+
